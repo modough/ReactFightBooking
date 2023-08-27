@@ -39,6 +39,7 @@
   justify-content: center;
   width: 100%;
   max-width: 420px;
+  min-width: 255px;
   height: 290px;
   position: relative;
 }

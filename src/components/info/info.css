@@ -1,0 +1,27 @@
+.info {
+  background: var(--SecondaryColor);
+}
+.infoContainer .titleDiv {
+  flex-direction: column;
+  text-align: center;
+  justify-content: center;
+  gap: 1.5rem;
+}
+.infoContainer .cardsDiv {
+  margin-top: 1rem;
+  gap: 1.5rem;
+}
+.singleCard {
+  background: var(--WhiteColor);
+  padding: 3rem 2rem;
+  border-radius: 10rem;
+  gap: 1rem;
+  text-align: center;
+  margin: auto;
+  width: 90%;
+  height: 320px;
+  max-width: 250px;
+}
+.singleCard .iconDiv {
+  justify-content: center;
+}
