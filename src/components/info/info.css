@@ -24,4 +24,23 @@
 }
 .singleCard .iconDiv {
   justify-content: center;
+  margin: auto;
+  background: var(--PrimaryColor);
+  width: max-content;
+  height: 55px;
+  padding: 1rem;
+  border-radius: 3rem;
+}
+.iconDiv .icon {
+  color: var(--WhiteColor);
+}
+.singleCard .cardTitle {
+  color: var(--BlackColor);
+  font-weight: 700;
+}
+.colorOne {
+  background: var(--ColorOne);
+}
+.colorTwo {
+  background: var(--ColorTwo);
 }

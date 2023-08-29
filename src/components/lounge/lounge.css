@@ -1,0 +1,36 @@
+.lounge .imgDiv {
+  margin: auto;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+  max-width: 430px;
+  height: 290px;
+  position: relative;
+}
+.lounge .imgDiv img {
+  position: absolute;
+  border-radius: 100px;
+}
+.imgDiv img.cabin {
+  width: 40%;
+  top: 0;
+  left: 35px;
+  z-index: 0;
+}
+.imgDiv img.cabinStaff {
+  object-fit: cover;
+  width: 35%;
+  height: 180px;
+  z-index: 10;
+}
+.textDiv .grids {
+  margin-top: 1rem;
+  gap: 1.5rem;
+}
+.singleGrid .gridTitle {
+  display: block;
+  padding-bottom: 0.5rem;
+  font-weight: 500;
+  color: var(--BlackColor);
+}

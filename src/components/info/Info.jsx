@@ -21,14 +21,14 @@ const Info = () => {
                         <p>You can also call airlines from your phone and book a flight ticket!</p>
                     </div>
                     <div className='singleCard grid'>
-                        <div className="iconDiv flex">
+                        <div className="iconDiv flex colorOne">
                             <BsShieldCheck className='icon' />
                         </div>
                         <span className='cardTitle'>Smart Checklist</span>
                         <p>You can also call airlines from your phone and book a flight ticket!</p>
                     </div>
                     <div className='singleCard grid'>
-                        <div className="iconDiv flex">
+                        <div className="iconDiv flex colorTwo">
                             <BsBookmarkCheck className='icon' />
                         </div>
                         <span className='cardTitle'>Save more</span>

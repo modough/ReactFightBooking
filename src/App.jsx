@@ -16,6 +16,8 @@ function App() {
       <Search />
       <Support />
       <Info />
+      <Lounge />
+      <Travelers />
 
     </div>
   )
