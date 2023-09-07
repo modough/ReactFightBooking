@@ -31,3 +31,9 @@
   top: -10%;
   left: -5%;
 }
+
+@media screen and (max-width: 480px) {
+  .home {
+    padding-top: 12rem;
+  }
+}

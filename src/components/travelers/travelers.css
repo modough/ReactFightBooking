@@ -91,3 +91,10 @@
     transition: 1s ease-in-out;
   }
 }
+
+@media screen and (max-width: 480px) {
+  .travelers .sectionContainer .travelersContainer {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+  }
+}

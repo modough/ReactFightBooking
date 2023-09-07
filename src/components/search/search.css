@@ -64,3 +64,10 @@
   font-size: 12px;
   opacity: 0.5;
 }
+
+@media screen and (max-width: 480px) {
+  .search .sectionContainer .searchInputs {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+  }
+}
