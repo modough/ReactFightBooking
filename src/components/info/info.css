@@ -44,3 +44,15 @@
 .colorTwo {
   background: var(--ColorTwo);
 }
+@media screen and (min-width: 570px) {
+  .info .infoContainer .titleDiv {
+    flex-direction: row;
+  }
+  .info .infoContainer .titleDiv h2 {
+    max-width: 500px;
+    text-align: left;
+  }
+  .info .infoContainer .cardsDiv {
+    grid-template-columns: repeat(2, 1fr);
+  }
+}

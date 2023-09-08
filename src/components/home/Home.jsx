@@ -9,8 +9,7 @@ const Home = () => {
             </div>
             <div className="homeImages flex">
                 <div className="videoDiv">
-                    <video src={sky} autoPlay muted loop>
-
+                    <video className='video' src={sky} autoPlay muted loop>
                     </video>
                 </div>
 

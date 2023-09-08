@@ -24,7 +24,7 @@
   width: 100%;
 }
 
-@media screen and (max-width: 480px) {
+@media screen and (min-width: 480px) {
   .subscribe .sectionContainer {
     max-width: 80%;
     margin: auto;
@@ -33,5 +33,13 @@
     flex-direction: row;
     padding: 0 0.5rem;
     border-radius: 3rem;
+  }
+}
+@media screen and (min-width: 570px) {
+  .subscribe .sectionContainer .inputDiv {
+    justify-content: space-between;
+  }
+  .subscribe .sectionContainer .inputDiv .btn {
+    max-width: max-content;
   }
 }

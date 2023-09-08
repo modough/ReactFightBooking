@@ -65,9 +65,24 @@
   opacity: 0.5;
 }
 
-@media screen and (max-width: 480px) {
+@media screen and (min-width: 480px) {
   .search .sectionContainer .searchInputs {
     display: grid;
     grid-template-columns: repeat(2, 1fr);
+  }
+}
+@media screen and (min-width: 570px) {
+  .search .sectionContainer .btns {
+    border-radius: 3rem;
+    flex-direction: row;
+  }
+}
+@media screen and (min-width: 680px) {
+  .search .sectionContainer .btn {
+    border-radius: 3rem;
+    flex-direction: row;
+  }
+  .search .sectionContainer .searchInputs {
+    grid-template-columns: repeat(3, 1fr);
   }
 }

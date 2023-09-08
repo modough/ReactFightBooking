@@ -34,3 +34,8 @@
   font-weight: 500;
   color: var(--BlackColor);
 }
+@media screen and (min-width: 570px) {
+  .lounge .sectionContainer .textDiv .grids {
+    grid-template-columns: repeat(2, 1fr);
+  }
+}

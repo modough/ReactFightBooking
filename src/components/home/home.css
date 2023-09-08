@@ -32,8 +32,38 @@
   left: -5%;
 }
 
-@media screen and (max-width: 480px) {
+@media screen and (min-width: 480px) {
   .home {
     padding-top: 12rem;
+  }
+}
+@media screen and (min-width: 570px) {
+  .home .mainText {
+    width: 80%;
+  }
+  .home .homeImages .video {
+    border-radius: 15rem;
+  }
+  .home .homeImages .plane {
+    position: absolute;
+    width: 95%;
+    top: -8%;
+  }
+}
+@media screen and (min-width: 680px) {
+  .home .mainText {
+    width: 80%;
+  }
+  .home .homeImages .videoDiv {
+    width: 80%;
+  }
+  .home .homeImages .videoDiv .video {
+    width: 100%;
+    height: 100%;
+    border-radius: 15rem;
+  }
+  .home .homeImages .plane {
+    width: 95%;
+    top: -8%;
   }
 }
