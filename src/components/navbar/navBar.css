@@ -16,6 +16,9 @@
 .navBarOne .icon:hover {
   color: var(--PrimaryColor);
 }
+.navBarOneLi {
+  display: none;
+}
 .navBarOne .atb {
   gap: 1rem;
 }
@@ -71,8 +74,44 @@
   .navBar {
     align-items: center;
   }
-  .navBarOne .none {
+  .navBarOneLi {
     display: flex;
+    gap: 1.5rem;
+  }
+  .navBar .navBarOneLi li {
+    font-size: 13px;
+    gap: 0.5rem;
+    color: var(--TextColor);
+  }
+  .navBar .navBarOneLi li:hover {
+    color: var(--PrimaryColor);
+    text-decoration: underline;
+  }
+  .navBarTwo {
+    justify-content: space-between;
+    align-items: center;
+  }
+  .navBarTwo .logoDiv .logo {
+    max-width: 20%;
+  }
+  .navBarTwo .menu {
+    flex-direction: row;
+    gap: 0.5rem;
+  }
+  .navBarTwo .menu .listItem {
+    padding: 0 0.5rem;
+    font-size: 14px;
+    cursor: pointer;
+    color: var(--TextColor);
+    font-weight: 700;
+  }
+  .navBarTwo .menu .listItem:hover {
+    color: var(--PrimaryColor);
+    font-weight: 700;
+  }
+  .btnOne,
+  .toggleIcon {
+    display: none;
   }
   .navBarMenu {
     position: absolute;

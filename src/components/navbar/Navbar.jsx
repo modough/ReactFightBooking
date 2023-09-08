@@ -5,6 +5,7 @@ import { AiOutlineGlobal } from 'react-icons/ai';
 import { CgMenuGridO } from 'react-icons/cg';
 import logo from '../../assets/flight resa logo.jpg'
 import { useState } from 'react';
+import './navBar.css'
 
 
 const Navbar = () => {
@@ -21,7 +22,7 @@ const Navbar = () => {
                 <div>
                     <SiConsul />
                 </div>
-                <div className='none flex'>
+                <div className='navBarOneLi'>
                     <li className='flex'><BsPhoneVibrate />Support</li>
                     <li className='flex'><AiOutlineGlobal />Languages</li>
                 </div>
@@ -32,7 +33,7 @@ const Navbar = () => {
             </div>
             <div className="navBarTwo flex">
                 <div className='logoDiv'>
-                    <img src={logo} alt="main logo" />
+                    <img className='logo' src={logo} alt="main logo" />
                     <h2>Flight Resa</h2>
                 </div>
                 <div className={active} >
