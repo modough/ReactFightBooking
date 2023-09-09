@@ -98,5 +98,36 @@ h2 {
   color: var(--BlackColor);
   padding: 1rem 0;
 }
+::selection {
+  background: var(--PrimaryColor);
+  color: var(--WhiteColor);
+}
+::-webkit-scrollbar {
+  width: 10px;
+  background: var(--GreyBackground);
+}
+::-webkit-scrollbar-thumb {
+  background: var(--PrimaryColor);
+  border-radius: 10px;
+}
 
-/*== NAVBAR ==*/
+@media screen and (min-width: 1024px) {
+  p {
+    font-size: 15px;
+
+    line-height: 25px;
+  }
+  h4 {
+    font-size: 20px;
+  }
+  h2 {
+    font-size: 27px;
+  }
+  .section {
+    padding: 6rem 0 4rem;
+  }
+  .container {
+    width: 75%;
+    margin: auto;
+  }
+}

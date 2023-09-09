@@ -80,3 +80,11 @@
     grid-template-columns: repeat(1, 1fr);
   }
 }
+@media screen and (min-width: 1332px) {
+  .support .sectionContainer .infoDiv {
+    gap: 1rem;
+  }
+  .support .sectionContainer .infoDiv .textDiv .singleInfo p {
+    max-width: 500px;
+  }
+}

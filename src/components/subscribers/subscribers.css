@@ -43,3 +43,13 @@
     max-width: max-content;
   }
 }
+@media screen and (min-width: 1106px) {
+  .subscribe .sectionContainer {
+    max-width: 60%;
+  }
+}
+@media screen and (min-width: 1332px) {
+  .subscribe .sectionContainer {
+    max-width: 50%;
+  }
+}

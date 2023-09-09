@@ -78,3 +78,32 @@
     line-height: 4rem;
   }
 }
+@media screen and (min-width: 1024px) {
+  .home .mainText {
+    width: 60%;
+
+    font-size: 25px;
+    line-height: 4rem;
+  }
+  .home .homeImages .videoDiv {
+    width: 90%;
+    height: 400px;
+  }
+  .home .homeImages .videoDiv .video {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    border-radius: 15rem;
+  }
+  .home .homeImages .plane {
+    width: 100%;
+    height: 100%;
+    top: 20px;
+  }
+}
+@media screen and (min-width: 1440px) {
+  .home .homeImages .plane {
+    width: 100%;
+    top: -30px;
+  }
+}

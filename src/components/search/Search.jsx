@@ -2,10 +2,17 @@ import { HiOutlineLocationMarker } from 'react-icons/hi'
 import { RiAccountPinCircleLine } from 'react-icons/ri'
 import { RxCalendar } from 'react-icons/rx'
 import './search.css'
+import { useEffect, useState } from 'react'
+import Aos from 'aos';
+import 'aos/dist/aos.css'
 const Search = () => {
+    useEffect(() => {
+        Aos.init({ duration: 2000 })
+    }, [])
+    const [type, setType] = useState('text')
     return (
         <div className="search container section">
-            <div className="sectionContainer grid">
+            <div data-aos='fade-up' data-aos-duration='2500' className="sectionContainer grid">
                 <div className="btns flex">
                     <div className="singleBtn">
                         <span>Economy</span>
@@ -17,7 +24,7 @@ const Search = () => {
                         <span>First Class</span>
                     </div>
                 </div>
-                <div className="searchInputs flex">
+                <div data-aos='fade-up' data-aos-duration='2000' className="searchInputs flex">
                     <div className="singleInput flex">
                         <div className="iconDiv">
                             <HiOutlineLocationMarker className='icon' />
@@ -33,7 +40,7 @@ const Search = () => {
                         </div>
                         <div className='texts'>
                             <h4>Travelers</h4>
-                            <input type="text" placeholder='Add guests' />
+                            <input type="number" placeholder='Add guests' />
                         </div>
                     </div>
                     <div className="singleInput flex">
@@ -42,7 +49,7 @@ const Search = () => {
                         </div>
                         <div className='texts'>
                             <h4>Check In</h4>
-                            <input type="text" placeholder='Add date' />
+                            <input type={type} placeholder='Add date' onClick={() => setType('date')} />
                         </div>
                     </div>
                     <div className="singleInput flex">
@@ -51,7 +58,7 @@ const Search = () => {
                         </div>
                         <div className='texts'>
                             <h4>Check Out</h4>
-                            <input type="text" placeholder='Add date' />
+                            <input type={type} placeholder='Add date' onClick={() => setType('date')} />
                         </div>
                     </div>
                     <button className="btn btnBlock flex">Search Flight</button>
