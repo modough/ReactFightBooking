@@ -56,3 +56,21 @@
     grid-template-columns: repeat(2, 1fr);
   }
 }
+@media screen and (min-width: 768px) {
+  .info .infoContainer {
+    padding: 0 6rem;
+  }
+  .info .infoContainer .titleDiv {
+    width: 90%;
+    margin: auto;
+    align-items: center;
+  }
+
+  .info .infoContainer .cardsDiv {
+    grid-template-columns: repeat(3, 1fr);
+  }
+  .info .infoContainer .cardsDiv .singleCard {
+    min-width: 260px;
+    padding: 3rem;
+  }
+}

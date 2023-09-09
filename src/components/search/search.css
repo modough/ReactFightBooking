@@ -36,7 +36,7 @@
   width: 100%;
   justify-content: center;
   flex-direction: column;
-  gap: 3px;
+  gap: 3rem;
 }
 .singleInput .iconDiv {
   padding: 16px 10px;
@@ -84,5 +84,23 @@
   }
   .search .sectionContainer .searchInputs {
     grid-template-columns: repeat(3, 1fr);
+  }
+}
+@media screen and (min-width: 768px) {
+  .search .sectionContainer .btns {
+    width: 70%;
+    border-radius: 3rem;
+    flex-direction: row;
+  }
+  .search .sectionContainer .searchInputs {
+    grid-template-columns: repeat(4, 1fr);
+  }
+  .searchInputs .singleInput .texts input {
+    width: 100%;
+  }
+}
+@media screen and (min-width: 960px) {
+  .search .sectionContainer .searchInputs {
+    grid-template-columns: repeat(5, 1fr);
   }
 }

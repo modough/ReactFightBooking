@@ -98,3 +98,14 @@
     grid-template-columns: repeat(2, 1fr);
   }
 }
+@media screen and (min-width: 768px) {
+  .travelers .sectionContainer .travelersContainer {
+    grid-template-columns: repeat(3, 1fr);
+  }
+}
+@media screen and (min-width: 960px) {
+  .travelers .sectionContainer .travelersContainer {
+    grid-template-columns: repeat(4, 1fr);
+    margin: 3rem 0rem;
+  }
+}

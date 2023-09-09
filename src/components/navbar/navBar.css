@@ -39,6 +39,7 @@
   align-items: center;
   padding: 1.5rem 1rem;
   transition: 0.3s ease-in-out;
+  background-color: var(--WhiteColor);
 }
 .logoDiv {
   display: flex;
@@ -109,10 +110,21 @@
     color: var(--PrimaryColor);
     font-weight: 700;
   }
-  .btnOne,
+  .btn.btnOne,
   .toggleIcon {
     display: none;
   }
+}
+.toggleIcon .icon {
+  font-size: 30px;
+  color: var(--BlackColor);
+}
+.showNavBar {
+  right: 50%;
+  transition: 0.5s ease-in-out;
+}
+
+@media screen and (max-width: 768px) {
   .navBarMenu {
     position: absolute;
     background: var(--SecondaryColor);
@@ -148,7 +160,7 @@
     margin: auto;
     margin-top: 1rem;
   }
-  .btnTwo {
+  .flex.btnTwo {
     display: none;
   }
 }
@@ -160,3 +172,5 @@
   right: 50%;
   transition: 0.5s ease-in-out;
 }
+
+/*=== HOME ===*/

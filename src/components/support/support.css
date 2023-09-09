@@ -69,3 +69,14 @@
     grid-template-columns: repeat(2, 1fr);
   }
 }
+@media screen and (min-width: 768px) {
+  .support .sectionContainer .infoDiv {
+    grid-template-columns: repeat(2, 1fr);
+    gap: 2rem;
+    margin-top: 5rem;
+  }
+  .support .sectionContainer .infoDiv .textDiv {
+    margin-top: 0rem;
+    grid-template-columns: repeat(1, 1fr);
+  }
+}
