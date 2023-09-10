@@ -13,7 +13,7 @@ const Home = () => {
             <div className="mainText">
                 <h1 data-aos='fade-up' data-aos-duration='2500'>Create Ever-lasting Memories With Us</h1>
             </div>
-            <div className="homeImages flex">
+            <div data-aos='fade-down' data-aos-duration='2500' className="homeImages flex">
                 <div className="videoDiv">
                     <video className='video' src={sky} autoPlay muted loop>
                     </video>
